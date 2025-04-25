@@ -22,6 +22,11 @@ nav a {
   color: black;
   font-weight: bold;
 }
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+}
 .search {
   top: 70px;
   display: flex;
@@ -44,4 +49,20 @@ nav a {
 }
 .kontakti{
   text-align: center;
+}
+h2{
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
+.ieteikumi {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
+.header2 {
+  background-color: rgb(140, 133, 239);
 }
