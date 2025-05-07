@@ -27,6 +27,19 @@ nav a {
   justify-content: flex-end;
   margin: 16px;
 }
+.image-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 16px;
+}
+.img-button2 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
 .search {
   top: 70px;
   display: flex;
@@ -42,6 +55,8 @@ nav a {
 }
 .Atklāj{
   background-color: rgb(140, 133, 239);
+   border-radius: 12px;
+   overflow: hidden;
 }
 .footer-sections{
   background-color:#ccc ;
@@ -65,4 +80,58 @@ h2{
 }
 .header2 {
   background-color: rgb(140, 133, 239);
+}
+
+.phone {
+  width: 100px;
+  height: 210px;
+  border: 8px solid black;
+  border-radius: 32px;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen img {
+  max-width: 1000px;
+  max-height: 1000px;
+  object-fit: contain;
+}
+.phone2 {
+  width: 200px;
+  height: 420px;
+  border: 8px solid black;
+  border-radius: 32px;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.phone3 {
+  width: 200px;
+  height: 420px;
+  border: 8px solid black;
+  border-radius: 32px;
+  background-color: #f8f8f8;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.phone-gallery {
+  left: 100px;
+  position: relative;
+  height: 200px; /* same as phone height */
+  width: 500px;  /* adjust based on overlap width */
 }
