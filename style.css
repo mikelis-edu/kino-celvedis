@@ -15,6 +15,7 @@ body {
 }
 header {
   text-align: center;
+  font-size: 20px;
 }
 nav a {
   margin: 0 1rem;
@@ -62,12 +63,11 @@ h1{
   right: 200px;
 }
 .footer-sections{
-  background-color:#ccc ;
-  
+  background-color:rgb(217, 217,217);
+  display: flex;
+ gap: 50px;
 }
-.kontakti{
-  text-align: center;
-}
+
 h2{
   text-align: center;
 }
@@ -77,9 +77,12 @@ h2{
   margin: 16px;
 }
 .ieteikumi {
+  background-color: rgb(241, 133, 133);
   display: flex;
   justify-content: space-around;
-  margin: 16px;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .phone {
   width: 200px;
@@ -131,6 +134,26 @@ h2{
 .phone-gallery {
   left: 100px;
   position: relative;
-  height: 200px; /* same as phone height */
-  width: 500px;  /* adjust based on overlap width */
+  height: 200px; 
+  width: 500px;  
+}
+.valūta {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  background-color:rgb(217, 217,217);
+}
+.video{
+  display: flex;
+  justify-content: center;
+  margin: 16px
+}
+.img-button3 {
+  background-color: rgb(217, 217,217);
+  border: rgb(217, 217,217);
+  cursor: pointer;
+  padding: 0;
+}
+footer{
+  background-color: rgb(217, 217,217)
 }
