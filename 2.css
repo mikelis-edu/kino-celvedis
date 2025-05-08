@@ -6,3 +6,10 @@ html {
 .header {
   text-align: center;
 }
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+.filmu-galerija{
+  gap:50px
+}
