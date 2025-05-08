@@ -56,7 +56,10 @@ nav a {
 .Atklāj{
   background-color: rgb(140, 133, 239);
    border-radius: 12px;
-   overflow: hidden;
+  height: 500px;
+}
+h1{
+  right: 200px;
 }
 .footer-sections{
   background-color:#ccc ;
@@ -78,13 +81,9 @@ h2{
   justify-content: space-around;
   margin: 16px;
 }
-.header2 {
-  background-color: rgb(140, 133, 239);
-}
-
 .phone {
-  width: 100px;
-  height: 210px;
+  width: 200px;
+  height: 420px;
   border: 8px solid black;
   border-radius: 32px;
   background-color: #f8f8f8;
@@ -104,8 +103,8 @@ h2{
 }
 
 .screen img {
-  max-width: 1000px;
-  max-height: 1000px;
+  max-width: 630px;
+  max-height: auto;
   object-fit: contain;
 }
 .phone2 {
@@ -118,6 +117,7 @@ h2{
   top: 0;
   overflow: hidden;
 }
+
 .phone3 {
   width: 200px;
   height: 420px;
@@ -128,7 +128,6 @@ h2{
   top: 0;
   overflow: hidden;
 }
-
 .phone-gallery {
   left: 100px;
   position: relative;
