@@ -13,3 +13,39 @@ h1{
 .filmu-galerija{
   gap:50px
 }
+footer{
+  background-color: rgb(217, 217,217)
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+}
+.img-button3 {
+  background-color: rgb(217, 217,217);
+  border: rgb(217, 217,217);
+  cursor: pointer;
+  padding: 0;}
+.valūta {
+   display: flex;
+  justify-content: flex-end;
+   margin-bottom: 24px;
+    background-color:rgb(217, 217,217);
+  }
+.filmas {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.image-block {
+  text-align: center;
+  font-weight: bold;
+}
+
+.image-block img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
