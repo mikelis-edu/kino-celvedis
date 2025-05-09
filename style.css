@@ -158,6 +158,10 @@ h2{
   justify-content: center;
   margin: 16px
 }
+.video iframe {
+  width: 960px;
+  height: 540px;
+}
 .img-button3 {
   background-color: rgb(217, 217,217);
   border: rgb(217, 217,217);
