@@ -56,11 +56,16 @@ nav a {
 }
 .Atklāj{
   background-color: rgb(140, 133, 239);
-   border-radius: 12px;
-  height: 500px;
-}
-h1{
-  right: 200px;
+     border-radius: 12px;
+     height: 500px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 20px;
+   }
+   .Atklāj h1 {
+     width: 40%;
+     margin: 0;
 }
 .footer-sections{
   background-color:rgb(217, 217,217);
