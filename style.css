@@ -56,20 +56,21 @@ nav a {
 }
 .Atklāj{
   background-color: rgb(140, 133, 239);
-      border-radius: 12px;
-       height: 500px;
-       display: flex;
-       flex-direction: row-reverse;
-       align-items: center;
-       justify-content: space-between;
-       padding: 40px;
-       overflow: hidden;
-     }
-     .Atklāj h1 {
-       font-size: 36px;
-       width: 30%;
-       margin: 0;
-       text-align: right;
+     border-radius: 12px;
+        height: 500px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        overflow: hidden;
+      }
+      .Atklāj h1 {
+        color: white;
+        font-size: 50px;
+        width: 30%;
+        margin: 0 100px 0 0;
+        text-align: right;
 }
 .footer-sections{
   background-color:rgb(217, 217,217);
