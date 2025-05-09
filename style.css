@@ -151,6 +151,7 @@ h2{
   display: flex;
   justify-content: flex-end;
   margin-bottom: 24px;
+  margin-right: 30px;
   background-color:rgb(217, 217,217);
 }
 .video{
